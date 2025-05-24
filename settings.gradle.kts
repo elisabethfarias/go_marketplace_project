@@ -21,3 +21,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "GoMarkeplace"
 include(":app")
+include(":modulo")
+include(":modulo:gomarkeplace:data:contract")
+include(":modulo:gomarkeplace:data:implementation")
+include(":modulo:gomarkeplace:domain:contract")
+include(":modulo:gomarkeplace:presentation")
+include(":modulo:gomarkeplace:domain:implementation")
